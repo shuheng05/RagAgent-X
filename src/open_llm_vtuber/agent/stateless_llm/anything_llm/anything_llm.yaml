@@ -1,0 +1,4 @@
+anything_llm:
+  url: "http://172.31.0.203:3001/api/v1/openai/chat/completions"
+  api_key: "K9XSJHQ-97JM73R-QVK786E-AT2HZKF"
+  workspace_model: "open-llm-vtuber"
