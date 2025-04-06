@@ -1,0 +1,10 @@
+gpt_sovits_tts:
+  api_url: http://172.31.0.203:9885/tts
+  batch_size: '1'
+  media_type: wav
+  prompt_lang: zh
+  prompt_text: 匆匆，燕子去了有再来的时候
+  ref_audio_path: /home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/liu-ref.wav
+  streaming_mode: 'false'
+  text_lang: zh
+  text_split_method: cut3
