@@ -16,11 +16,11 @@ system_config:
 
 # configuration for the default character
 character_config:
-  conf_name: 'shizuku-local' # The name of character configuration file.
-  conf_uid: 'shizuku-local-001' # The unique identifier of character configuration.
-  live2d_model_name: 'shizuku-local' # The name of Live2D model. Must be the same as the corresponding name in model_dict.json
+  conf_name: 'mao_pro-local' # The name of character configuration file.
+  conf_uid: 'mao_pro-local-001' # The unique identifier of character configuration.
+  live2d_model_name: 'mao_pro-local' # The name of Live2D model. Must be the same as the corresponding name in model_dict.json
   character_name: 'Shizuku' # Will be used in the group conversation and the display name of the AI.
-  avatar: 'shizuku.png' # Suggest using a square image for the avatar. Save it in the avatars folder. Leave blank to use the first letter of the character name as the avatar.
+  avatar: 'sweet.png' # Suggest using a square image for the avatar. Save it in the avatars folder. Leave blank to use the first letter of the character name as the avatar.
   human_name: 'Human' # Will be used in the group conversation and the display name of the human.
 
   # ============== Prompts ==============

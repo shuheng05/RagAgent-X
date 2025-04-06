@@ -1,7 +1,8 @@
 import os
 import shutil
+import httpx
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from starlette.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from starlette.responses import Response
@@ -52,7 +53,7 @@ class WebSocketServer:
             init_webtool_routes(default_context_cache=default_context_cache),
         )
 
-        # Mount cache directory first (to ensure audio file access)
+        # Mount cache directory
         if not os.path.exists("cache"):
             os.makedirs("cache")
         self.app.mount(
@@ -60,6 +61,39 @@ class WebSocketServer:
             StaticFiles(directory="cache"),
             name="cache",
         )
+
+        # Reverse proxy: /api -> Flask, /voice -> GPT-SoVITS
+        @self.app.api_route("/api/{path:path}", methods=["GET", "POST"])
+        async def proxy_api(request: Request, path: str):
+            target_url = f"http://127.0.0.1:5000/{path}"  # Flask 的服务地址
+            async with httpx.AsyncClient() as client:
+                headers = dict(request.headers)
+                if request.method == "POST":
+                    body = await request.body()
+                    response = await client.post(target_url, content=body, headers=headers)
+                else:
+                    response = await client.get(target_url, params=dict(request.query_params), headers=headers)
+            return Response(
+                content=response.content,
+                status_code=response.status_code,
+                headers=response.headers
+            )
+
+        @self.app.api_route("/voice/{path:path}", methods=["GET", "POST"])
+        async def proxy_voice(request: Request, path: str):
+            target_url = f"http://127.0.0.1:9885/{path}"  # GPT-SoVITS 的地址
+            async with httpx.AsyncClient() as client:
+                headers = dict(request.headers)
+                if request.method == "POST":
+                    body = await request.body()
+                    response = await client.post(target_url, content=body, headers=headers)
+                else:
+                    response = await client.get(target_url, params=dict(request.query_params), headers=headers)
+            return Response(
+                content=response.content,
+                status_code=response.status_code,
+                headers=response.headers
+            )
 
         # Mount static files
         self.app.mount(
@@ -78,14 +112,14 @@ class WebSocketServer:
             name="avatars",
         )
 
-        # Mount web tool directory separately from frontend
+        # Mount web tool
         self.app.mount(
             "/web-tool",
             CustomStaticFiles(directory="web_tool", html=True),
             name="web_tool",
         )
 
-        # Mount main frontend last (as catch-all)
+        # Mount main frontend
         self.app.mount(
             "/",
             CustomStaticFiles(directory="frontend", html=True),
@@ -101,4 +135,4 @@ class WebSocketServer:
         cache_dir = "cache"
         if os.path.exists(cache_dir):
             shutil.rmtree(cache_dir)
-            os.makedirs(cache_dir)
+        os.makedirs(cache_dir)

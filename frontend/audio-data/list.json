@@ -1,0 +1,34 @@
+[
+  {
+    "title": "曼波语音",
+    "file": "manbo-ref.mp3",
+    "ref_audio_path": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/manbo-ref.mp3",
+    "prompt_text": "哥，我求你了，不要再针对我了，我现实就一臭屌丝，浑身散发，阴暗气息。",
+    "gpt_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/GPT_weights_v2/manbo-e15.ckpt",
+    "sovits_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/SoVITS_weights_v2/manbo_e8_s48.pth"
+  },
+  {
+    "title": "胡桃语音",
+    "file": "hutao-ref.wav",
+    "ref_audio_path": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/hutao-ref.wav",
+    "prompt_text": "本堂主略施小计，你就败下阵来了，嘿嘿。",
+    "gpt_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/GPT_weights_v2/胡桃-e10.ckpt",
+    "sovits_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/SoVITS_weights_v2/胡桃_e10_s210.pth"
+  },
+  {
+    "title": "可莉语音",
+    "file": "keli-ref.wav",
+    "ref_audio_path": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/keli-ref.wav",
+    "prompt_text": "买东西那天也有一个人帮了开了款式，那个人好像叫",
+    "gpt_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/GPT_weights_v2/可莉-e10.ckpt",
+    "sovits_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/SoVITS_weights_v2/可莉_e10_s210.pth"
+  },
+  {
+    "title": "托马语音",
+    "file": "tuoma-ref.wav",
+    "ref_audio_path": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/tuoma-ref.wav",
+    "prompt_text": "千世万代不变不移的永恒，便是执掌这个国家的「她」的意志。",
+    "gpt_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/GPT_weights_v2/托马-e10.ckpt",
+    "sovits_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/SoVITS_weights_v2/托马_e10_s890.pth"
+  }
+]

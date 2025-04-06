@@ -5,6 +5,8 @@
 import re
 import requests
 from loguru import logger
+
+from .DynamicGPTConfig import DynamicGPTConfig
 from .tts_interface import TTSInterface
 
 
@@ -35,12 +37,15 @@ class TTSEngine(TTSInterface):
         file_name = self.generate_cache_file_name(file_name_no_ext, self.media_type)
         cleaned_text = re.sub(r"\[.*?\]", "", text)
         # Prepare the data for the POST request
+        gpt_config = DynamicGPTConfig.load_from_yaml()
+        logger.info(f"new ref audio path:{gpt_config.ref_audio_path}")
+        logger.info(f"new prompt text:{gpt_config.prompt_text}")
         data = {
             "text": cleaned_text,
             "text_lang": self.text_lang,
-            "ref_audio_path": self.ref_audio_path,
+            "ref_audio_path": gpt_config.ref_audio_path,
             "prompt_lang": self.prompt_lang,
-            "prompt_text": self.prompt_text,
+            "prompt_text": gpt_config.prompt_text,
             "text_split_method": self.text_split_method,
             "batch_size": self.batch_size,
             "media_type": self.media_type,
