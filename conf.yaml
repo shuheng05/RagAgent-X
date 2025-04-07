@@ -24,7 +24,7 @@ character_config:
     conversation_agent_choice: basic_memory_agent
     agent_settings:
       basic_memory_agent:
-        llm_provider: deepseek_llm
+        llm_provider: openai_compatible_llm
         faster_first_response: true
         segment_method: pysbd
       mem0_agent:
@@ -54,11 +54,11 @@ character_config:
         idle_timeout: 15
     llm_configs:
       openai_compatible_llm:
-        base_url: http://localhost:11434/v1
-        llm_api_key: somethingelse
+        base_url: http://172.31.0.203:3001/api/v1/openai
+        llm_api_key: K9XSJHQ-97JM73R-QVK786E-AT2HZKF
         organization_id: org_eternity
         project_id: project_glass
-        model: qwen2.5:latest
+        model: open-llm-vtuber
         temperature: 1.0
         interrupt_method: user
       claude_llm:
@@ -87,7 +87,7 @@ character_config:
         model: glm-4-flash
         temperature: 1.0
       deepseek_llm:
-        llm_api_key: sk-3123a7c2adba4f2cb0e3b7679554068c
+        llm_api_key: Your DeepSeek API Key
         model: deepseek-chat
         temperature: 0.7
       mistral_llm:

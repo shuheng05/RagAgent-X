@@ -3,11 +3,9 @@ from typing import Type
 from loguru import logger
 
 from .stateless_llm.stateless_llm_interface import StatelessLLMInterface
-# from .stateless_llm.openai_compatible_llm import AsyncLLM as OpenAICompatibleLLM
+from .stateless_llm.openai_compatible_llm import AsyncLLM as OpenAICompatibleLLM
 from .stateless_llm.ollama_llm import OllamaLLM
 from .stateless_llm.claude_llm import AsyncLLM as ClaudeLLM
-from .stateless_llm.anything_llm.openai_compatible_llm_rag import AsyncLLM as OpenAICompatibleLLMRag
-
 
 class LLMFactory:
     @staticmethod
@@ -29,7 +27,7 @@ class LLMFactory:
             or llm_provider == "groq_llm"
             or llm_provider == "mistral_llm"
         ):
-            return OpenAICompatibleLLMRag(
+            return OpenAICompatibleLLM(
                 model=kwargs.get("model"),
                 base_url=kwargs.get("base_url"),
                 llm_api_key=kwargs.get("llm_api_key"),
