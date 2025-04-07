@@ -1,5 +1,13 @@
 [
   {
+    "title": "原始语音",
+    "file": "liu-ref.wav",
+    "ref_audio_path": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/liu-ref.wav",
+    "prompt_text": "匆匆，燕子去了有再来的时候",
+    "gpt_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/GPT_weights_v2/liu-e15.ckpt",
+    "sovits_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/SoVITS_weights_v2/liu_e8_s72.pth"
+  },
+  {
     "title": "曼波语音",
     "file": "manbo-ref.mp3",
     "ref_audio_path": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/manbo-ref.mp3",
@@ -30,5 +38,13 @@
     "prompt_text": "千世万代不变不移的永恒，便是执掌这个国家的「她」的意志。",
     "gpt_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/GPT_weights_v2/托马-e10.ckpt",
     "sovits_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/SoVITS_weights_v2/托马_e10_s890.pth"
+  },
+  {
+    "title": "军事语音",
+    "file": "junshi-ref.wav",
+    "ref_audio_path": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/junshi-ref.wav",
+    "prompt_text": "一战后的凡尔赛条约，禁止德国发展自动武器。尤其是任何水冷式重机枪。",
+    "gpt_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/GPT_weights_v2/junshi-e15.ckpt",
+    "sovits_weights": "/home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/SoVITS_weights_v2/junshi_e8_s48.pth"
   }
 ]
