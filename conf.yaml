@@ -7,11 +7,11 @@ system_config:
     live2d_expression_prompt: live2d_expression_prompt
   group_conversation_prompt: group_conversation_prompt
 character_config:
-  conf_name: mao_pro-local
-  conf_uid: mao_pro-local-001
-  live2d_model_name: mao_pro-local
-  character_name: mao_pro
-  avatar: mao.png
+  conf_name: nezha-local
+  conf_uid: zh_nezha_01
+  live2d_model_name: nezha-local
+  character_name: nezha-local
+  avatar: nezha.jpg
   human_name: Human
   persona_prompt: '你是一个校园AI助手。
 

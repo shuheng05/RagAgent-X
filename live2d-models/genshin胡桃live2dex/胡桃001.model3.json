@@ -1,0 +1,74 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "胡桃001.moc3",
+    "Textures": [
+      "胡桃001.2048/texture_00.png"
+    ],
+    "Physics": "胡桃001.physics3.json",
+    "PhysicsV2": {
+      "File": "胡桃001.physics3.json"
+    },
+    "Motions": {
+      "Tap1": [
+        {
+          "File": "新建文件夹/吐舌头.motion3.json",
+          "Text": "嘿嘿"
+        },
+        {}
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "ArtMesh12",
+      "Id": "ArtMesh12",
+      "Motion": "Tap1"
+    }
+  ],
+  "Options": {}
+}

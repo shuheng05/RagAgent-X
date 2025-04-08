@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "敖丙_DLC2_Live2D.moc3",
+		"Textures": [
+			"敖丙_DLC2_Live2D.8192/texture_00.png"
+		],
+		"Physics": "敖丙_DLC2_Live2D.physics3.json",
+		"DisplayInfo": "敖丙_DLC2_Live2D.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen",
+				"ParamEyeLOpen"
+			]
+		}
+	]
+}

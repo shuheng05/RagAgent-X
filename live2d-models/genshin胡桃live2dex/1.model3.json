@@ -1,0 +1,213 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "胡桃001.moc3",
+    "Textures": [
+      "胡桃001.2048/texture_00.png"
+    ],
+    "Physics": "胡桃001.physics3.json",
+    "PhysicsV2": {
+      "File": "胡桃001.physics3.json"
+    },
+    "Motions": {
+      "Tap1": [
+        {
+          "File": "motions/吐舌头.motion3.json",
+          "Sound": "music/嘿嘿….mp3",
+          "Text": "嘻嘻"
+        }
+      ],
+      "Tap2": [
+        {
+          "File": "motions/你好啊.motion3.json",
+          "Sound": "music/该我出马了.mp3",
+          "Text": "该我出马啦"
+        },
+        {
+          "File": "motions/你好啊.motion3.json",
+          "Sound": "music/阴阳有序.mp3",
+          "Text": "阴阳有序，命运无常。死亡难以预测，却也有它的规矩。记住了，无论何时何地，无论有何原因，人都不该轻易挑衅「死」之一事。唯有认识它、尊重它，才能明白活着的价值。"
+        },
+        {
+          "File": "motions/你好啊.motion3.json",
+          "Sound": "music/藏七七.mp3",
+          "Text": "看到七七了吗？快告诉我她在哪，我要把她藏起来，嘿！"
+        },
+        {
+          "File": "motions/你好啊.motion3.json",
+          "Sound": "music/小巷派.mp3",
+          "Text": "小巷派暗黑打油诗人，正是本人！"
+        }
+      ],
+      "Tap3": [
+        {
+          "File": "motions/好奇.motion3.json",
+          "Sound": "music/好奇.mp3"
+        },
+        {
+          "Name": "有什么好东西",
+          "File": "motions/好奇.motion3.json",
+          "Sound": "music/有什么好东西.mp3",
+          "Text": "有什么好东西"
+        }
+      ],
+      "Tap4": [
+        {
+          "File": "motions/胡桃摇3.motion3.json",
+          "Sound": "music/我和你bgm.mp3",
+          "Text": "bgm:我和你"
+        }
+      ],
+      "Tap5": [
+        {
+          "File": "motions/脸红1.motion3.json",
+          "Sound": "music/噫.mp3"
+        }
+      ],
+      "Tap6": [
+        {
+          "File": "motions/阴险.motion3.json",
+          "Sound": "music/揍扁你啊.mp3",
+          "Text": "喂，揍扁你啊"
+        },
+        {
+          "File": "motions/脸红1.motion3.json",
+          "Sound": "music/噫.mp3"
+        }
+      ],
+      "Start": [
+        {
+          "Name": "中午好",
+          "File": "motions/你好啊.motion3.json",
+          "Sound": "music/中午好，吃了吗？.mp3",
+          "Text": "中午好，吃了吗？",
+          "TimeLimit": {
+            "Hour": 11,
+            "Sustain": 300
+          }
+        },
+        {
+          "Name": "晚上好",
+          "File": "motions/你好啊.motion3.json",
+          "Sound": "music/月亮出来了.mp3",
+          "Text": "月亮出来喽",
+          "TimeLimit": {
+            "Hour": 17,
+            "Sustain": 540
+          }
+        },
+        {
+          "Name": "早上好",
+          "File": "motions/你好啊.motion3.json",
+          "Sound": "music/早起身体好.mp3",
+          "Text": "早起，身体好 晚起，人会飘",
+          "TimeLimit": {
+            "Hour": 6,
+            "Sustain": 240
+          }
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 6000,
+      "MaxInterval": 10000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "吐舌",
+      "Id": "ArtMesh10",
+      "Motion": "Tap1"
+    },
+    {
+      "Name": "脸红2",
+      "Id": "ArtMesh52",
+      "Motion": "Tap5"
+    },
+    {
+      "Name": "脸红",
+      "Id": "ArtMesh51",
+      "Motion": "Tap5"
+    },
+    {
+      "Name": "胡桃摇",
+      "Id": "ArtMesh110",
+      "Motion": "Tap4"
+    },
+    {
+      "Name": "胡桃摇",
+      "Id": "ArtMesh109",
+      "Motion": "Tap4"
+    },
+    {
+      "Name": "阴险",
+      "Id": "ArtMesh58",
+      "Motion": "Tap6"
+    },
+    {
+      "Name": "阴险2",
+      "Id": "ArtMesh59"
+    },
+    {
+      "Name": "好奇",
+      "Id": "ArtMesh124",
+      "Motion": "Tap3"
+    },
+    {
+      "Name": "我来了2",
+      "Id": "ArtMesh45",
+      "Motion": "Tap2"
+    },
+    {
+      "Name": "我来了",
+      "Id": "ArtMesh94",
+      "Motion": "Tap2"
+    },
+    {
+      "Name": "吐舌",
+      "Id": "ArtMesh97",
+      "Motion": "Tap1"
+    }
+  ],
+  "Options": {}
+}

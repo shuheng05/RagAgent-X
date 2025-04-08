@@ -1,0 +1,50 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "小哪吒_DLC2_Live2D.moc3",
+		"Textures": [
+			"小哪吒_DLC2_Live2D.8192/texture_00.png"
+		],
+		"Physics": "小哪吒_DLC2_Live2D.physics3.json",
+		"DisplayInfo": "小哪吒_DLC2_Live2D.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen",
+				"ParamEyeLOpen"
+			]
+		}
+	],
+	"SavedModelPosition": {
+		"Position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"Rotation": {
+			"x": 0.0,
+			"y": 1.0,
+			"z": 0.0,
+			"w": 1.0
+		},
+		"Scale": {
+			"x": 1.0,
+			"y": -1.0,
+			"z": 1.0
+		}
+	},
+	"Layout": {
+		"CenterX": 0.0,
+		"CenterY": 0.0,
+		"Width": 2.0,
+		"Height": -2.0
+	}
+}

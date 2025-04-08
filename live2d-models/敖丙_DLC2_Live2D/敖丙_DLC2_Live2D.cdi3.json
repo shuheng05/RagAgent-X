@@ -1,0 +1,1360 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param_biaoqing1",
+			"GroupId": "ParamGroup3",
+			"Name": "白眼球"
+		},
+		{
+			"Id": "Param_biaoqing2",
+			"GroupId": "ParamGroup3",
+			"Name": "翻白眼"
+		},
+		{
+			"Id": "Param_biaoqing3",
+			"GroupId": "ParamGroup3",
+			"Name": "眯眯眼"
+		},
+		{
+			"Id": "Param_biaoqing4",
+			"GroupId": "ParamGroup3",
+			"Name": "左眼球独立控制"
+		},
+		{
+			"Id": "Param_biaoqing5",
+			"GroupId": "ParamGroup3",
+			"Name": "三角嘴"
+		},
+		{
+			"Id": "Param_biaoqing6",
+			"GroupId": "ParamGroup3",
+			"Name": "犯傻嘴"
+		},
+		{
+			"Id": "Param_biaoqing7",
+			"GroupId": "ParamGroup3",
+			"Name": "高光消失"
+		},
+		{
+			"Id": "Param_biaoqing8",
+			"GroupId": "ParamGroup3",
+			"Name": "吐舌头"
+		},
+		{
+			"Id": "Param_biaoqing9",
+			"GroupId": "ParamGroup3",
+			"Name": "右耳折叠"
+		},
+		{
+			"Id": "Param_biaoqing11",
+			"GroupId": "ParamGroup3",
+			"Name": "右耳折叠2"
+		},
+		{
+			"Id": "Param_biaoqing10",
+			"GroupId": "ParamGroup3",
+			"Name": "左耳折叠"
+		},
+		{
+			"Id": "Param_biaoqing12",
+			"GroupId": "ParamGroup3",
+			"Name": "左耳折叠2"
+		},
+		{
+			"Id": "Param_biaoqing13",
+			"GroupId": "ParamGroup3",
+			"Name": "灵魂提取头"
+		},
+		{
+			"Id": "Param_shouRX",
+			"GroupId": "ParamGroup4",
+			"Name": "右手X"
+		},
+		{
+			"Id": "Param_shouRY",
+			"GroupId": "ParamGroup4",
+			"Name": "右手Y"
+		},
+		{
+			"Id": "Param_shouRZ",
+			"GroupId": "ParamGroup4",
+			"Name": "右手Z"
+		},
+		{
+			"Id": "Param_shouRS",
+			"GroupId": "ParamGroup4",
+			"Name": "右手缩放"
+		},
+		{
+			"Id": "Param_shouLX",
+			"GroupId": "ParamGroup4",
+			"Name": "左手X"
+		},
+		{
+			"Id": "Param_shouLY",
+			"GroupId": "ParamGroup4",
+			"Name": "左手Y"
+		},
+		{
+			"Id": "Param_shouLZ",
+			"GroupId": "ParamGroup4",
+			"Name": "左手Z"
+		},
+		{
+			"Id": "Param_shouLS",
+			"GroupId": "ParamGroup4",
+			"Name": "左手缩放"
+		},
+		{
+			"Id": "BQB_1",
+			"GroupId": "ParamGroup5",
+			"Name": "敲位置"
+		},
+		{
+			"Id": "BQB_2",
+			"GroupId": "ParamGroup5",
+			"Name": "敲1"
+		},
+		{
+			"Id": "BQB_3",
+			"GroupId": "ParamGroup5",
+			"Name": "敲2"
+		},
+		{
+			"Id": "BQB_14",
+			"GroupId": "ParamGroup5",
+			"Name": "敲图层"
+		},
+		{
+			"Id": "BQB_4",
+			"GroupId": "ParamGroup5",
+			"Name": "捏X"
+		},
+		{
+			"Id": "BQB_5",
+			"GroupId": "ParamGroup5",
+			"Name": "捏Y"
+		},
+		{
+			"Id": "BQB_6",
+			"GroupId": "ParamGroup5",
+			"Name": "捏1"
+		},
+		{
+			"Id": "BQB_7",
+			"GroupId": "ParamGroup5",
+			"Name": "捏2"
+		},
+		{
+			"Id": "BQB_8",
+			"GroupId": "ParamGroup5",
+			"Name": "捏放"
+		},
+		{
+			"Id": "BQB_9",
+			"GroupId": "ParamGroup5",
+			"Name": "鱼干解锁"
+		},
+		{
+			"Id": "BQB_10",
+			"GroupId": "ParamGroup5",
+			"Name": "鱼干X"
+		},
+		{
+			"Id": "BQB_11",
+			"GroupId": "ParamGroup5",
+			"Name": "鱼干Y"
+		},
+		{
+			"Id": "BQB_12",
+			"GroupId": "ParamGroup5",
+			"Name": "鱼干旋转"
+		},
+		{
+			"Id": "BQB_13",
+			"GroupId": "ParamGroup5",
+			"Name": "鱼干缩放"
+		},
+		{
+			"Id": "BQB_15",
+			"GroupId": "ParamGroup5",
+			"Name": "地面X"
+		},
+		{
+			"Id": "BQB_16",
+			"GroupId": "ParamGroup5",
+			"Name": "地面Y"
+		},
+		{
+			"Id": "BQB_17",
+			"GroupId": "ParamGroup5",
+			"Name": "灵魂提取器Y"
+		},
+		{
+			"Id": "BQB_18",
+			"GroupId": "ParamGroup5",
+			"Name": "灵魂提取器爪"
+		},
+		{
+			"Id": "BQB_19",
+			"GroupId": "ParamGroup5",
+			"Name": "刷子X"
+		},
+		{
+			"Id": "BQB_20",
+			"GroupId": "ParamGroup5",
+			"Name": "刷子Y"
+		},
+		{
+			"Id": "BQB_21",
+			"GroupId": "ParamGroup5",
+			"Name": "刷子旋转"
+		},
+		{
+			"Id": "BQB_22",
+			"GroupId": "ParamGroup5",
+			"Name": "刷子刷"
+		},
+		{
+			"Id": "BQB_23",
+			"GroupId": "ParamGroup5",
+			"Name": "刷毛刷"
+		},
+		{
+			"Id": "BQB_24",
+			"GroupId": "ParamGroup5",
+			"Name": "盒子显示"
+		},
+		{
+			"Id": "BQB_25",
+			"GroupId": "ParamGroup5",
+			"Name": "盒子图层"
+		},
+		{
+			"Id": "wuli_yanR1",
+			"GroupId": "ParamGroup2",
+			"Name": "右眼1"
+		},
+		{
+			"Id": "wuli_yanR2",
+			"GroupId": "ParamGroup2",
+			"Name": "右眼2"
+		},
+		{
+			"Id": "wuli_yanR3",
+			"GroupId": "ParamGroup2",
+			"Name": "右眼3"
+		},
+		{
+			"Id": "wuli_yanL1",
+			"GroupId": "ParamGroup2",
+			"Name": "左眼1"
+		},
+		{
+			"Id": "wuli_yanL2",
+			"GroupId": "ParamGroup2",
+			"Name": "左眼2"
+		},
+		{
+			"Id": "wuli_yanL3",
+			"GroupId": "ParamGroup2",
+			"Name": "左眼3"
+		},
+		{
+			"Id": "wuli_toufa1",
+			"GroupId": "ParamGroup2",
+			"Name": "头发1"
+		},
+		{
+			"Id": "wuli_toufa2",
+			"GroupId": "ParamGroup2",
+			"Name": "头发2"
+		},
+		{
+			"Id": "wuli_toufaY1",
+			"GroupId": "ParamGroup2",
+			"Name": "头发Y1"
+		},
+		{
+			"Id": "wuli_toufaY2",
+			"GroupId": "ParamGroup2",
+			"Name": "头发Y2"
+		},
+		{
+			"Id": "wuli_tou1",
+			"GroupId": "ParamGroup2",
+			"Name": "头1"
+		},
+		{
+			"Id": "wuli_tou2",
+			"GroupId": "ParamGroup2",
+			"Name": "头2"
+		},
+		{
+			"Id": "wuli_shenti1",
+			"GroupId": "ParamGroup2",
+			"Name": "身体1"
+		},
+		{
+			"Id": "wuli_shenti2",
+			"GroupId": "ParamGroup2",
+			"Name": "身体2"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleX2",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 X2"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleY2",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 Y2"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup6",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamAngleS",
+			"GroupId": "ParamGroup6",
+			"Name": "头大小"
+		},
+		{
+			"Id": "Param_cuoxiaba",
+			"GroupId": "ParamGroup6",
+			"Name": "搓下巴"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup6",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup6",
+			"Name": "右眼　开闭"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup6",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup6",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "Param_biaoqing",
+			"GroupId": "ParamGroup6",
+			"Name": "表情控制"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup6",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup6",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamEyeBallX2",
+			"GroupId": "ParamGroup6",
+			"Name": "左眼眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY2",
+			"GroupId": "ParamGroup6",
+			"Name": "左眼眼珠 Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup6",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup6",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamMouthX",
+			"GroupId": "ParamGroup6",
+			"Name": "歪嘴"
+		},
+		{
+			"Id": "ParamMouthY",
+			"GroupId": "ParamGroup6",
+			"Name": "嘴抽抽"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup6",
+			"Name": "身体旋转　X"
+		},
+		{
+			"Id": "ParamBodyAngleX2",
+			"GroupId": "ParamGroup6",
+			"Name": "身体旋转　X2"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup6",
+			"Name": "身体旋转　Y"
+		},
+		{
+			"Id": "ParamBodyAngleY2",
+			"GroupId": "ParamGroup6",
+			"Name": "身体旋转　Y2"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup6",
+			"Name": "身体旋转　Z"
+		},
+		{
+			"Id": "ParamBodyAngleZ2",
+			"GroupId": "ParamGroup6",
+			"Name": "身体旋转　Z2"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup6",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup",
+			"Name": "脸颊泛红"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup",
+			"Name": "摇动 前发"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "ParamGroup",
+			"Name": "摇动 侧发"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroup",
+			"Name": "摇动 后发"
+		},
+		{
+			"Id": "Param_DLC3",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子挠"
+		},
+		{
+			"Id": "Param_DLC14",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子挠位移"
+		},
+		{
+			"Id": "Param_DLC4",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪挠显隐"
+		},
+		{
+			"Id": "Param_DLC5",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子角度"
+		},
+		{
+			"Id": "Param_DLC6",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子缩放"
+		},
+		{
+			"Id": "Param_DLC7",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子X"
+		},
+		{
+			"Id": "Param_DLC8",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子Y"
+		},
+		{
+			"Id": "Param_DLC9",
+			"GroupId": "ParamGroup7",
+			"Name": "抓痕切换"
+		},
+		{
+			"Id": "Param_DLC10",
+			"GroupId": "ParamGroup7",
+			"Name": "抓痕"
+		},
+		{
+			"Id": "Param_DLC13",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子尖"
+		},
+		{
+			"Id": "Param_DLC38",
+			"GroupId": "ParamGroup7",
+			"Name": "肉垫"
+		},
+		{
+			"Id": "Param_DLC55",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子挠后"
+		},
+		{
+			"Id": "Param_DLC56",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子挠位移后"
+		},
+		{
+			"Id": "Param_DLC57",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪挠显隐后"
+		},
+		{
+			"Id": "Param_DLC59",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子角度后"
+		},
+		{
+			"Id": "Param_DLC58",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子缩放后"
+		},
+		{
+			"Id": "Param_DLC60",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子X后"
+		},
+		{
+			"Id": "Param_DLC61",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子Y后"
+		},
+		{
+			"Id": "Param_DLC63",
+			"GroupId": "ParamGroup7",
+			"Name": "抓痕切换后"
+		},
+		{
+			"Id": "Param_DLC62",
+			"GroupId": "ParamGroup7",
+			"Name": "抓痕后"
+		},
+		{
+			"Id": "Param_DLC64",
+			"GroupId": "ParamGroup7",
+			"Name": "爪子尖后"
+		},
+		{
+			"Id": "Param_DLC65",
+			"GroupId": "ParamGroup7",
+			"Name": "肉垫后"
+		},
+		{
+			"Id": "Param_DLC1",
+			"GroupId": "ParamGroup7",
+			"Name": "猫和老鼠"
+		},
+		{
+			"Id": "Param_DLC2",
+			"GroupId": "ParamGroup7",
+			"Name": "猫和老鼠嘴"
+		},
+		{
+			"Id": "Param_DLC11",
+			"GroupId": "ParamGroup7",
+			"Name": "存钱罐"
+		},
+		{
+			"Id": "Param_DLC12",
+			"GroupId": "ParamGroup7",
+			"Name": "存钱罐开"
+		},
+		{
+			"Id": "Param_DLC15",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪抓显隐"
+		},
+		{
+			"Id": "Param_DLC16",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪抓抓"
+		},
+		{
+			"Id": "Param_DLC17",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪抓图层"
+		},
+		{
+			"Id": "Param_DLC18",
+			"GroupId": "ParamGroup7",
+			"Name": "鱼干隐藏"
+		},
+		{
+			"Id": "Param_DLC19",
+			"GroupId": "ParamGroup7",
+			"Name": "硬币倒下"
+		},
+		{
+			"Id": "Param_DLC20",
+			"GroupId": "ParamGroup7",
+			"Name": "硬币解锁"
+		},
+		{
+			"Id": "Param_DLC21",
+			"GroupId": "ParamGroup7",
+			"Name": "硬币滚动"
+		},
+		{
+			"Id": "Param_DLC22",
+			"GroupId": "ParamGroup7",
+			"Name": "布丁1"
+		},
+		{
+			"Id": "Param_DLC23",
+			"GroupId": "ParamGroup7",
+			"Name": "布丁2"
+		},
+		{
+			"Id": "Param_DLC24",
+			"GroupId": "ParamGroup7",
+			"Name": "布丁X"
+		},
+		{
+			"Id": "Param_DLC25",
+			"GroupId": "ParamGroup7",
+			"Name": "布丁Y"
+		},
+		{
+			"Id": "Param_DLC26",
+			"GroupId": "ParamGroup7",
+			"Name": "布丁角度"
+		},
+		{
+			"Id": "Param_DLC27",
+			"GroupId": "ParamGroup7",
+			"Name": "布丁显示"
+		},
+		{
+			"Id": "Param_DLC28",
+			"GroupId": "ParamGroup7",
+			"Name": "猫罐头显示"
+		},
+		{
+			"Id": "Param_DLC29",
+			"GroupId": "ParamGroup7",
+			"Name": "猫罐头X"
+		},
+		{
+			"Id": "Param_DLC30",
+			"GroupId": "ParamGroup7",
+			"Name": "猫罐头Y"
+		},
+		{
+			"Id": "Param_DLC31",
+			"GroupId": "ParamGroup7",
+			"Name": "猫罐头旋转"
+		},
+		{
+			"Id": "Param_DLC32",
+			"GroupId": "ParamGroup7",
+			"Name": "猫罐头缩放"
+		},
+		{
+			"Id": "Param_DLC33",
+			"GroupId": "ParamGroup7",
+			"Name": "小春眼"
+		},
+		{
+			"Id": "Param_DLC66",
+			"GroupId": "ParamGroup7",
+			"Name": "惊讶"
+		},
+		{
+			"Id": "Param_DLC34",
+			"GroupId": "ParamGroup7",
+			"Name": "吸奶茶"
+		},
+		{
+			"Id": "Param_DLC35",
+			"GroupId": "ParamGroup7",
+			"Name": "珍珠"
+		},
+		{
+			"Id": "Param_DLC36",
+			"GroupId": "ParamGroup7",
+			"Name": "奶茶杯"
+		},
+		{
+			"Id": "Param_DLC37",
+			"GroupId": "ParamGroup7",
+			"Name": "奶茶吸管"
+		},
+		{
+			"Id": "Param_DLC39",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫右手1"
+		},
+		{
+			"Id": "Param_DLC40",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫右手2"
+		},
+		{
+			"Id": "Param_DLC41",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫右手X"
+		},
+		{
+			"Id": "Param_DLC42",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫右手Y"
+		},
+		{
+			"Id": "Param_DLC43",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫右手"
+		},
+		{
+			"Id": "Param_DLC44",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫左手1"
+		},
+		{
+			"Id": "Param_DLC45",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫左手2"
+		},
+		{
+			"Id": "Param_DLC46",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫左手X"
+		},
+		{
+			"Id": "Param_DLC47",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫左手Y"
+		},
+		{
+			"Id": "Param_DLC48",
+			"GroupId": "ParamGroup7",
+			"Name": "抓猫左手"
+		},
+		{
+			"Id": "Param_DLC49",
+			"GroupId": "ParamGroup7",
+			"Name": "大哭嘴"
+		},
+		{
+			"Id": "Param_DLC50",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪背面"
+		},
+		{
+			"Id": "Param_DLC51",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪背面缩放"
+		},
+		{
+			"Id": "Param_DLC52",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪背面角度"
+		},
+		{
+			"Id": "Param_DLC53",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪背面X"
+		},
+		{
+			"Id": "Param_DLC54",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪背面Y"
+		},
+		{
+			"Id": "Param_DLC67",
+			"GroupId": "ParamGroup7",
+			"Name": "薯片袋"
+		},
+		{
+			"Id": "Param_DLC68",
+			"GroupId": "ParamGroup7",
+			"Name": "嘴咀嚼"
+		},
+		{
+			"Id": "Param_DLC69",
+			"GroupId": "ParamGroup7",
+			"Name": "眼泪"
+		},
+		{
+			"Id": "Param_DLC70",
+			"GroupId": "ParamGroup7",
+			"Name": "红温"
+		},
+		{
+			"Id": "Param_DLC71",
+			"GroupId": "ParamGroup7",
+			"Name": "奶茶杯"
+		},
+		{
+			"Id": "Param_DLC72",
+			"GroupId": "ParamGroup7",
+			"Name": "猫爪背面摸下巴"
+		},
+		{
+			"Id": "Param_DLC2_1",
+			"GroupId": "ParamGroup8",
+			"Name": "独立鱼"
+		},
+		{
+			"Id": "Param_DLC2_9",
+			"GroupId": "ParamGroup8",
+			"Name": "叼鱼"
+		},
+		{
+			"Id": "Param_DLC2_2",
+			"GroupId": "ParamGroup8",
+			"Name": "独立鱼X"
+		},
+		{
+			"Id": "Param_DLC2_3",
+			"GroupId": "ParamGroup8",
+			"Name": "独立鱼Y"
+		},
+		{
+			"Id": "Param_DLC2_4",
+			"GroupId": "ParamGroup8",
+			"Name": "独立鱼旋转"
+		},
+		{
+			"Id": "Param_DLC2_5",
+			"GroupId": "ParamGroup8",
+			"Name": "鱼眨眼"
+		},
+		{
+			"Id": "Param_DLC2_6",
+			"GroupId": "ParamGroup8",
+			"Name": "独立鱼缩放"
+		},
+		{
+			"Id": "Param_DLC2_7",
+			"GroupId": "ParamGroup8",
+			"Name": "鱼抽抽1"
+		},
+		{
+			"Id": "Param_DLC2_8",
+			"GroupId": "ParamGroup8",
+			"Name": "鱼抽抽2"
+		},
+		{
+			"Id": "Param_DLC2_10",
+			"GroupId": "ParamGroup8",
+			"Name": "吐珍珠调整"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "表情"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "手"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "表情包"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "物理模拟"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "默认动作"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "用不着"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "DLC"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "DLC2"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part105",
+			"Name": "敖丙 Live2D.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part82",
+			"Name": "猫猫前"
+		},
+		{
+			"Id": "Part37",
+			"Name": "猫猫"
+		},
+		{
+			"Id": "Part83",
+			"Name": "猫猫后"
+		},
+		{
+			"Id": "Part24",
+			"Name": "用不着"
+		},
+		{
+			"Id": "Part86",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "Part88",
+			"Name": "AB前发"
+		},
+		{
+			"Id": "Part103",
+			"Name": "后发"
+		},
+		{
+			"Id": "Part51",
+			"Name": "抓猫右手"
+		},
+		{
+			"Id": "Part50",
+			"Name": "薯片袋"
+		},
+		{
+			"Id": "Part55",
+			"Name": "惊讶"
+		},
+		{
+			"Id": "Part62",
+			"Name": "猫爪挠前"
+		},
+		{
+			"Id": "Part80",
+			"Name": "鱼"
+		},
+		{
+			"Id": "Part57",
+			"Name": "钱包"
+		},
+		{
+			"Id": "Part34",
+			"Name": "刷子"
+		},
+		{
+			"Id": "Part35",
+			"Name": "灵魂提取器"
+		},
+		{
+			"Id": "Part33",
+			"Name": "敲"
+		},
+		{
+			"Id": "Part31",
+			"Name": "捏"
+		},
+		{
+			"Id": "Part54",
+			"Name": "盒子"
+		},
+		{
+			"Id": "Part64",
+			"Name": "猫爪前面"
+		},
+		{
+			"Id": "Part42",
+			"Name": "猫罐头"
+		},
+		{
+			"Id": "Part",
+			"Name": "手"
+		},
+		{
+			"Id": "Part30",
+			"Name": "地面"
+		},
+		{
+			"Id": "Part25",
+			"Name": "头"
+		},
+		{
+			"Id": "Part43",
+			"Name": "布丁"
+		},
+		{
+			"Id": "Part68",
+			"Name": "抓猫左手"
+		},
+		{
+			"Id": "Part70",
+			"Name": "猫爪挠后"
+		},
+		{
+			"Id": "Part17",
+			"Name": "身体"
+		},
+		{
+			"Id": "Part18",
+			"Name": "后发"
+		},
+		{
+			"Id": "Part39",
+			"Name": "灵魂提取器后"
+		},
+		{
+			"Id": "Part19",
+			"Name": "光环"
+		},
+		{
+			"Id": "Part63",
+			"Name": "盒子后"
+		},
+		{
+			"Id": "Part36",
+			"Name": "盒子底"
+		},
+		{
+			"Id": "Part97",
+			"Name": "表情包通用零件.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part65",
+			"Name": "表情包通用零件.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part69",
+			"Name": "玛丽_Live2D.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part16",
+			"Name": "左耳"
+		},
+		{
+			"Id": "Part9",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part60",
+			"Name": "猫抓痕"
+		},
+		{
+			"Id": "Part61",
+			"Name": "猫爪正面"
+		},
+		{
+			"Id": "Part49",
+			"Name": "硬币"
+		},
+		{
+			"Id": "Part32",
+			"Name": "小鱼干"
+		},
+		{
+			"Id": "Part28",
+			"Name": "左手"
+		},
+		{
+			"Id": "Part27",
+			"Name": "右手"
+		},
+		{
+			"Id": "Part84",
+			"Name": "鱼"
+		},
+		{
+			"Id": "Part2",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "Part4",
+			"Name": "前发"
+		},
+		{
+			"Id": "Part48",
+			"Name": "猫爪背面"
+		},
+		{
+			"Id": "Part52",
+			"Name": "珍珠奶茶"
+		},
+		{
+			"Id": "Part5",
+			"Name": "脸"
+		},
+		{
+			"Id": "Part14",
+			"Name": "耳朵"
+		},
+		{
+			"Id": "Part29",
+			"Name": "盒子"
+		},
+		{
+			"Id": "Part13",
+			"Name": "侧发"
+		},
+		{
+			"Id": "Part58",
+			"Name": "猫和老鼠猫爪"
+		},
+		{
+			"Id": "Part56",
+			"Name": "圆圈"
+		},
+		{
+			"Id": "Part59",
+			"Name": "侧发后"
+		},
+		{
+			"Id": "Part71",
+			"Name": "猫抓痕"
+		},
+		{
+			"Id": "Part72",
+			"Name": "猫爪正面"
+		},
+		{
+			"Id": "DLC3",
+			"Name": "DLC2"
+		},
+		{
+			"Id": "DLC2",
+			"Name": "DLC"
+		},
+		{
+			"Id": "DLC",
+			"Name": "DLC"
+		},
+		{
+			"Id": "Part10",
+			"Name": "眼球"
+		},
+		{
+			"Id": "Part20",
+			"Name": "右眉"
+		},
+		{
+			"Id": "Part22",
+			"Name": "左眉"
+		},
+		{
+			"Id": "Part3",
+			"Name": "头发高光"
+		},
+		{
+			"Id": "Part6",
+			"Name": "五官"
+		},
+		{
+			"Id": "Part15",
+			"Name": "右耳"
+		},
+		{
+			"Id": "Part26",
+			"Name": "左耳"
+		},
+		{
+			"Id": "Part73",
+			"Name": "红包"
+		},
+		{
+			"Id": "Part74",
+			"Name": "钞票"
+		},
+		{
+			"Id": "Part75",
+			"Name": "拖走"
+		},
+		{
+			"Id": "Part76",
+			"Name": "扎小人"
+		},
+		{
+			"Id": "Part77",
+			"Name": "敲木鱼"
+		},
+		{
+			"Id": "Part78",
+			"Name": "上香"
+		},
+		{
+			"Id": "Part79",
+			"Name": "荧光棒"
+		},
+		{
+			"Id": "Part81",
+			"Name": "精灵球"
+		},
+		{
+			"Id": "Part44",
+			"Name": "猫爪"
+		},
+		{
+			"Id": "Part7",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Part21",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part40",
+			"Name": "眼泪"
+		},
+		{
+			"Id": "Part41",
+			"Name": "大哭嘴"
+		},
+		{
+			"Id": "Part11",
+			"Name": "腮红"
+		},
+		{
+			"Id": "Part12",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part45",
+			"Name": "猫抓痕"
+		},
+		{
+			"Id": "Part46",
+			"Name": "猫爪正面"
+		},
+		{
+			"Id": "Part47",
+			"Name": "猫爪前面"
+		},
+		{
+			"Id": "Part53",
+			"Name": "小春眼"
+		},
+		{
+			"Id": "Part8",
+			"Name": "眼球"
+		},
+		{
+			"Id": "Part66",
+			"Name": "小春眼"
+		},
+		{
+			"Id": "Part23",
+			"Name": "眼球"
+		},
+		{
+			"Id": "Part38",
+			"Name": "鱼干MASK"
+		},
+		{
+			"Id": "Part67",
+			"Name": "吸管"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"BQB_4",
+			"BQB_5"
+		],
+		[
+			"BQB_10",
+			"BQB_11"
+		],
+		[
+			"wuli_toufa1",
+			"wuli_toufa2"
+		],
+		[
+			"wuli_tou1",
+			"wuli_tou2"
+		],
+		[
+			"wuli_shenti1",
+			"wuli_shenti2"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"Param_DLC7",
+			"Param_DLC8"
+		],
+		[
+			"Param_DLC60",
+			"Param_DLC61"
+		],
+		[
+			"Param_DLC24",
+			"Param_DLC25"
+		]
+	]
+}
