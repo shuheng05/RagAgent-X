@@ -1,9 +1,9 @@
 
 
 character_config:
-  conf_name: "nezha-local"
-  conf_uid: "zh_nezha_01"
-  live2d_model_name: "nezha-local"
+  conf_name: "mao_pro-local"
+  conf_uid: "zh_mao_pro_01"
+  live2d_model_name: "mao_pro-local"
 
 
 
