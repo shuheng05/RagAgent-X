@@ -1,0 +1,12 @@
+
+
+character_config:
+  conf_name: "liaocaolong-local"
+  conf_uid: "zh_liaocaolong_01"
+  live2d_model_name: "liaocaolong-local"
+
+
+
+# you may add more custom settings
+# refer to the main conf.yaml for available settings
+# Options unset will remain unchanged when switching character

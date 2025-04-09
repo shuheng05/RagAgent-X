@@ -6,7 +6,6 @@
     "kScale": 0.01,
     "initialXshift": 0,
     "initialYshift": 0,
-    "flipY": false,
     "kXOffset": 1150,
     "idleMotionGroupName": "Idle",
     "emotionMap": {
@@ -35,18 +34,17 @@
     "kScale": 0.3,
     "initialXshift": 0,
     "initialYshift": 0,
-    "flipY": true,
     "kXOffset": 1150,
     "idleMotionGroupName": "Idle",
     "emotionMap": {
       "neutral": 0,
-      "anger": 2,
+      "anger": 1,
       "disgust": 2,
-      "fear": 1,
-      "joy": 3,
-      "smirk": 3,
-      "sadness": 1,
-      "surprise": 3
+      "fear": 3,
+      "joy": 4,
+      "smirk": 5,
+      "sadness": 6,
+      "surprise": 7
     },
     "tapMotions": {
       "HitAreaHead": {
@@ -64,7 +62,6 @@
     "kScale": 0.3,
     "initialXshift": 0,
     "initialYshift": 0,
-    "flipY": false,
     "kXOffset": 1150,
     "idleMotionGroupName": "Idle",
     "emotionMap": {
@@ -90,10 +87,65 @@
     "name": "hutao-local",
     "description": "A hutao unique voice interaction AI for Retrieval Enhanced Generation (RAG) ",
     "url": "/live2d-models/genshin胡桃live2dex/胡桃001.model3.json",
+    "kScale": 0.3,
+    "initialXshift": 0,
+    "initialYshift": 0,
+    "kXOffset": 1150,
+    "idleMotionGroupName": "Idle",
+    "emotionMap": {
+      "neutral": 0,
+      "anger": 2,
+      "disgust": 2,
+      "fear": 1,
+      "joy": 3,
+      "smirk": 3,
+      "sadness": 1,
+      "surprise": 3
+    },
+    "tapMotions": {
+      "HitAreaHead": {
+        "": 1
+      },
+      "HitAreaBody": {
+        "": 1
+      }
+    }
+  },
+  {
+    "name": "ariu-local",
+    "description": "A ariu unique voice interaction AI for Retrieval Enhanced Generation (RAG) ",
+    "url": "/live2d-models/ariu/ariu.model3.json",
     "kScale": 0.01,
     "initialXshift": 0,
     "initialYshift": 0,
-    "flipY": false,
+    "kXOffset": 1150,
+    "idleMotionGroupName": "Idle",
+    "emotionMap": {
+      "neutral": 0,
+      "anger": 2,
+      "disgust": 2,
+      "fear": 1,
+      "joy": 3,
+      "smirk": 3,
+      "sadness": 1,
+      "surprise": 3
+    },
+    "tapMotions": {
+      "HitAreaHead": {
+        "": 1
+      },
+      "HitAreaBody": {
+        "": 1
+      }
+    }
+  },
+  {
+    "name": "liaocaolong-local",
+    "description": "A liaocaolong unique voice interaction AI for Retrieval Enhanced Generation (RAG) ",
+    "url": "/live2d-models/潦草的龙/潦草的龙.model3.json",
+    "kScale": 0.3,
+    "initialXshift": 0,
+    "initialYshift": 0,
     "kXOffset": 1150,
     "idleMotionGroupName": "Idle",
     "emotionMap": {

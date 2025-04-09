@@ -11,12 +11,27 @@
       "File": "胡桃001.physics3.json"
     },
     "Motions": {
-      "Tap1": [
+      "Idle": [
         {
-          "File": "新建文件夹/吐舌头.motion3.json",
-          "Text": "嘿嘿"
+          "File": "motions/你好啊.motion3.json"
+        }
+      ],
+      "": [
+        {
+          "File": "motions/吐舌头.motion3.json"
         },
-        {}
+        {
+          "File": "motions/好奇.motion3.json"
+        },
+        {
+          "File": "motions/胡桃摇3.motion3.json"
+        },
+        {
+          "File": "motions/脸红1.motion3.json"
+        },
+        {
+          "File": "motions/阴险.motion3.json"
+        }
       ]
     }
   },
@@ -65,9 +80,12 @@
   },
   "HitAreas": [
     {
-      "Name": "ArtMesh12",
-      "Id": "ArtMesh12",
-      "Motion": "Tap1"
+      "Id": "HitAreaHead",
+      "Name": ""
+    },
+    {
+      "Id": "HitAreaBody",
+      "Name": ""
     }
   ],
   "Options": {}
