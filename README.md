@@ -53,3 +53,130 @@
   - 🧩 **Agent自由实现**：继承并实现 Agent 接口，接入任何架构的 Agent，如 HumeAI EVI、OpenAI Her、Mem0 等
   - 🔌 **良好的可扩展性**：模块化设计让你能轻松添加自己的 LLM、ASR、TTS 等模块实现，随时扩展新特性
 
+## 🚀 快速上手 （Ubuntu）
+
+### 环境准备
+
+#### 安装 Git
+
+```cmd
+sudo apt install git
+```
+
+#### 安装 FFmpeg
+
+```cmd
+sudo apt install ffmpeg
+```
+
+#### NVIDIA GPU 支持
+
+如果你有 NVIDIA 显卡并希望使用 GPU 运行本地模型，你需要:
+
+- 安装 NVIDIA 显卡驱动
+- 安装 CUDA Toolkit (推荐 11.8 或更高版本)
+- 安装对应版本的 cuDNN
+
+#### Python 环境管理
+
+参考 **Conda** 官网进行下载
+
+#### 安装 Docker
+
+参考 **Docker** 官网进行下载
+
+#### 部署 GPT-SoVITS
+
+```cmd
+# 克隆仓库 / 下载最新的 Github Release
+git clone https://github.com/RVC-Boss/GPT-SoVITS.git
+
+# 进入项目目录
+cd GPT-SoVITS
+
+# 创建名为 GPT-SoVITS 的虚拟环境，Python 版本 3.9.21
+conda create -n GPT-SoVITS python=3.9.21
+
+# 进入虚拟环境
+conda activate GPT-SoVITS
+
+# 安装 ffmpeg
+conda install ffmpeg
+
+# 安装项目依赖
+pip install -r requirements.txt
+
+# 启动 API 接口
+python api_v2.py
+
+# 浏览器打开
+http://localhost:9880/docs
+```
+
+训练语音模型
+
+```cmd
+# 启动 webui 训练界面
+python webui.py
+
+# 浏览器打开
+http://localhost:9882
+```
+
+#### 部署 AnyThingLLM
+
+```cmd
+# Docker 拉取 AnyThingLLM
+docker pull mintplexlabs/anythingllm
+
+# Docker 运行
+export STORAGE_LOCATION=$HOME/anythingllm && \
+mkdir -p $STORAGE_LOCATION && \
+touch "$STORAGE_LOCATION/.env" && \
+docker run -d -p 3001:3001 \
+--cap-add SYS_ADMIN \
+-v ${STORAGE_LOCATION}:/app/server/storage \
+-v ${STORAGE_LOCATION}/.env:/app/server/.env \
+-e STORAGE_DIR="/app/server/storage" \
+mintplexlabs/anythingllm
+
+# 浏览器打开
+http://localhost:3001
+```
+
+
+
+### 部署本项目
+
+```cmd
+# 克隆仓库 / 下载最新的 Github Release
+git clone https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
+
+# 进入项目目录
+cd Open-LLM-VTuber
+
+# 创建名为 Open-LLM-VTuber 的虚拟环境，Python 版本 3.12.9
+conda create -n Open-LLM-VTuber python=3.12.9
+
+# 进入虚拟环境
+conda activate Open-LLM-VTuber
+
+# 安装项目依赖
+python install .
+
+# 配置 conf.yaml 文件：ASR、RAG + LLM、TTS 等
+
+# 启动项目
+python run_server.py
+
+# 启动更改语音模型接口
+python change_gptsovits_server.py
+
+# 浏览器打开
+http://localhost:12393
+```
+
+## 项目前端
+
+[shuheng05/Open-LLM-VTuber-Rag-Web: Web 模式、窗口模式和桌宠模式](https://github.com/shuheng05/Open-LLM-VTuber-Rag-Web)
+
