@@ -150,7 +150,7 @@ http://localhost:3001
 
 ```cmd
 # 克隆仓库 / 下载最新的 Github Release
-git clone https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
+git clone https://github.com/shuheng05/Open-LLM-VTuber-Rag.git
 
 # 进入项目目录
 cd Open-LLM-VTuber
@@ -175,6 +175,18 @@ python change_gptsovits_server.py
 # 浏览器打开
 http://localhost:12393
 ```
+
+## 技术路线框架图
+
+| ![](./assets/技术路线框架图.png) |
+| -------------------------------- |
+
+## 部署流程图
+
+| ![](./assets/部署图.png) |
+| ------------------------ |
+
+
 
 ## 项目前端
 
