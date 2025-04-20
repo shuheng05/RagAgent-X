@@ -38,8 +38,6 @@ class TTSEngine(TTSInterface):
         cleaned_text = re.sub(r"\[.*?\]", "", text)
         # Prepare the data for the POST request
         gpt_config = DynamicGPTConfig.load_from_yaml()
-        logger.info(f"new ref audio path:{gpt_config.ref_audio_path}")
-        logger.info(f"new prompt text:{gpt_config.prompt_text}")
         data = {
             "text": cleaned_text,
             "text_lang": self.text_lang,
