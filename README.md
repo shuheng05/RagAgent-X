@@ -1,11 +1,11 @@
 ![](./assets/banner.jpg)
 
-<h1 align="center">Open-LLM-VTuber-Rag</h1>
+<h1 align="center">RagAgent X</h1>
 <h3 align="center"></h3>
 
 ## ⭐️ 项目简介
 
-**Open-LLM-VTuber-Rag** 是基于**检索增强生成（RAG）技术**的独特的**语音交互 AI **，它不仅支持**实时语音对话**和**视觉感知**，还配备了生动的 **Live2D 形象**。
+**RagAgent X** 是基于**检索增强生成（RAG）技术**的独特的**语音交互 AI **，它不仅支持**实时语音对话**和**视觉感知**，还配备了生动的 **Live2D 形象**。
 
 **检索增强生成（RAG）**：结合实时检索与深度学习生成能力，使 AI 回答更加精准、上下文连贯，并具备知识更新能力。
 
@@ -153,16 +153,16 @@ http://localhost:3001
 
 ```cmd
 # 克隆仓库 / 下载最新的 Github Release
-git clone https://github.com/shuheng05/Open-LLM-VTuber-Rag.git
+git clone https://github.com/shuheng05/RagAgent-X.git
 
 # 进入项目目录
-cd Open-LLM-VTuber
+cd RagAgent-X
 
-# 创建名为 Open-LLM-VTuber 的虚拟环境，Python 版本 3.12.9
-conda create -n Open-LLM-VTuber python=3.12.9
+# 创建名为 RagAgent-X 的虚拟环境，Python 版本 3.12.9
+conda create -n RagAgent-X python=3.12.9
 
 # 进入虚拟环境
-conda activate Open-LLM-VTuber
+conda activate RagAgent-x
 
 # 安装项目依赖
 python install .
@@ -193,5 +193,5 @@ http://localhost:12393
 
 ## 项目前端
 
-[shuheng05/Open-LLM-VTuber-Rag-Web: Web 模式、窗口模式和桌宠模式](https://github.com/shuheng05/Open-LLM-VTuber-Rag-Web)
+[shuheng05/RagAgent-X-Web: Web 模式、窗口模式和桌宠模式](https://github.com/shuheng05/RagAgent-X-Web)
 
