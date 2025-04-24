@@ -7,4 +7,4 @@ gpt_sovits_tts:
   ref_audio_path: /home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/liu-ref.wav
   streaming_mode: 'false'
   text_lang: zh
-  text_split_method: cut3
+  text_split_method: cut5

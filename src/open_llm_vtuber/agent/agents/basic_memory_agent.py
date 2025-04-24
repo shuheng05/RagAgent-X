@@ -86,7 +86,7 @@ class BasicMemoryAgent(AgentInterface):
         logger.debug(f"Memory Agent: Setting system prompt: '''{system}'''")
 
         if self.interrupt_method == "user":
-            system = f"{system}\n\nIf you received `[interrupted by user]` signal, you were interrupted."
+            system = f"{system}如果您收到 '[interrupted by user]' 信号，则表示您被打断了。"
 
         self._system = system
 

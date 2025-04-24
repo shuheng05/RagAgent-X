@@ -75,12 +75,12 @@ class AsyncLLM(StatelessLLMInterface):
         try:
             # If system prompt is provided, add it to the messages
             messages_with_system = messages
-            if system:
-                messages_with_system = [
-                    {"role": "system", "content": system},
-                    *messages,
-                ]
-
+            # if system:
+            #     messages_with_system = [
+            #         {"role": "system", "content": system},
+            #         *messages,
+            #     ]
+            # logger.info(f"Messages with system: {messages_with_system}")
             stream: AsyncStream[
                 ChatCompletionChunk
             ] = await self.client.chat.completions.create(

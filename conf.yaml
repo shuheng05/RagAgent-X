@@ -13,13 +13,7 @@ character_config:
   character_name: nezha-local
   avatar: nezha.jpg
   human_name: Human
-  persona_prompt: '你是一个校园AI助手。
-
-    请直接回答用户的问题，只提供与问题相关的信息。
-
-    如果参考知识库，必须严格筛选与问题直接相关的内容。回答时使用自然流畅的语句，避免任何特殊符号或非常规字符，确保语音合成顺畅。
-
-    '
+  persona_prompt: '你是一个校园AI助手。不要出现表情符号等，请直接回答纯文本。'
   agent_config:
     conversation_agent_choice: basic_memory_agent
     agent_settings:
@@ -59,7 +53,7 @@ character_config:
         organization_id: org_eternity
         project_id: project_glass
         model: open-llm-vtuber
-        temperature: 1.0
+        temperature: 0
         interrupt_method: user
       claude_llm:
         base_url: https://api.anthropic.com
@@ -191,7 +185,7 @@ character_config:
       ref_audio_path: /home/ubuntu/edmond/GPT-SoVITS-test/GPT-SoVITS/ref-data/liu-ref.wav
       prompt_lang: zh
       prompt_text: 匆匆，燕子去了有再来的时候
-      text_split_method: cut3
+      text_split_method: cut5
       batch_size: '1'
       media_type: wav
       streaming_mode: 'false'
