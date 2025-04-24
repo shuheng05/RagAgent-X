@@ -1,4 +1,4 @@
-![](./assets/banner.jpg)
+![](./assets/banner-new.jpg)
 
 <h1 align="center">RagAgent X</h1>
 <h3 align="center"></h3>
